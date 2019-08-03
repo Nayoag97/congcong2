@@ -46,6 +46,6 @@ var get_list_album = new Crawler({
   }
 });
 
-for (let index = 0; index < 100; index++) {
+for (let index = 0; index < 20; index++) {
   get_list_album.queue("https://mrcong.com/page/" + index.toString() + "/");
 }
